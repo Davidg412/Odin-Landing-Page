@@ -1,10 +1,8 @@
 /*CSS style sheet for Odin-Landing-Page*/
 body {
-    background-color: #1F2937;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin: 0;
 }
-
+/*Section 1 CSS in index.html*/
 h3 {
     margin: 0;
 }
@@ -13,7 +11,9 @@ h3 {
     display: flex;
     align-items: center;
     background-color: #1F2937;
-    margin-bottom: 6em;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 6em;
 }
 
 ul {
@@ -66,12 +66,6 @@ button {
     margin-left: auto;
 }
 
-.section12 {
-    display: flex;
-    align-items: center;
-    background-color: #1F2937;
-}
-
 .content {
     display: flex;
     flex-direction: column;
@@ -82,4 +76,13 @@ button {
     display: flex;
     justify-content: center;
     width: 100px;
+}
+
+/*Section 2 in index.html */
+
+.section2 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 6em;
 }
