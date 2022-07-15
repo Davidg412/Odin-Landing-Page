@@ -3,8 +3,9 @@ body {
     margin: 0;
 }
 /*Section 1 CSS in index.html*/
+
 h3 {
-    margin: 0;
+    color:#F9FAF8
 }
 
 .section1 {
@@ -85,4 +86,25 @@ button {
     align-items: center;
     background-color: white;
     margin-bottom: 6em;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.random {
+    display:flex;
+    justify-content: center;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+img {
+    height: auto;
+    width: 100px;
+}
+
+.info {
+    max-width: 150px;
 }
