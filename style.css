@@ -1,0 +1,85 @@
+/*CSS style sheet for Odin-Landing-Page*/
+body {
+    background-color: #1F2937;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    margin-bottom: 6em;
+}
+
+ul {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+    flex: 1;
+    margin-left: auto;
+    padding: 5px;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+p {
+    color: white;
+    width: 375px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 16px;
+    border: 1px solid #3882F6;
+}
+
+.image {
+    display: flex;
+    color: white;
+    background-color: gray;
+    padding: 125px 220px;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.section12 {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
