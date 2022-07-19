@@ -84,10 +84,13 @@ button {
 .section2 {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: white;
     margin-bottom: 6em;
     padding-left: 350px;
     padding-right: 350px;
+    gap: 50px;
+    text-align: center;
 }
 
 .random {
@@ -106,5 +109,6 @@ img {
 }
 
 .info {
-    max-width: 150px;
+    max-width: 140px;
+    justify-content: center;
 }
