@@ -56,6 +56,7 @@ button {
     border-radius: 25px;
     padding: 8px 16px;
     border: 1px solid #3882F6;
+    width: 100px;
 }
 
 .image {
@@ -137,5 +138,42 @@ img {
     font-weight: bold;
     display: flex;
     margin-left: auto;
+    font-size: 20px;
+}
+
+/*Section 4 in index.html */
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 5em 350px;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    padding: 50px 75px;
+    gap: 400px;
+    flex: 1;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec4but {
+    display: flex;
+    border-color: white;
+    justify-content: center;
+}
+
+strong {
     font-size: 20px;
 }
