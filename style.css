@@ -177,3 +177,14 @@ img {
 strong {
     font-size: 20px;
 }
+
+/*Footer in index.html*/
+
+footer {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 25px 6em;
+}
